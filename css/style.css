@@ -27,7 +27,7 @@ a{
     font-size: 18px;
     line-height: 32px;
 }
-.home-start button,.explore-more button{
+.home-start button,.explore-more button,.need-survive button{
     padding: 15px 25px;
     background-color: rgba(172, 6, 6, 0.961);
     color: #fff;
@@ -47,11 +47,28 @@ a{
     padding: 15px 0px;
 }
 .explore-more .more-info p{
-    font-size: 20px;
+    font-size: 18px;
     color:rgb(125, 122, 122);
     padding: 20px 0px;
     text-align: inter-word;
 }
-.explore-more .cow-see img{
+.explore-more .cow-see img,.need-survive img{
     border-radius: 15px;
+}
+.need-survive{
+    display: flex;
+    padding: 120px 150px;
+}
+.need-survive .read-survive{
+    padding: 15px 100px;
+}
+.need-survive .read-survive h1{
+    font-size: 45px;
+    padding: 15px 0;
+}
+.need-survive .read-survive p{
+    font-size: 18px;
+    color: rgb(125, 122, 122);
+    padding: 20px 0;
+    text-align: justify;
 }
