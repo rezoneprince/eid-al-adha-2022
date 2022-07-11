@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.home-start{
+    background-image: url(../images/cowbazar1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    opacity: rgba(76, 175, 80, 0.6);
+    margin-bottom: 180px;
+    padding: 0 150px;
+
+}
+.home-start h1{
+    color: #fff;
+    font-size: 60px;
+    padding-top: 200px;
+}
+.home-start p{
+    padding: 20px 0px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 32px;
+}
+.home-start button,.explore-more button{
+    padding: 15px 25px;
+    background-color: rgba(172, 6, 6, 0.961);
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 15px;
+}
+.explore-more{
+    display: flex;
+    padding: 10px 150px;
+}
+.explore-more .more-info{
+    padding-right: 150px;
+}
+.explore-more .more-info h1{
+    font-size: 45px;
+    padding: 15px 0px;
+}
+.explore-more .more-info p{
+    font-size: 20px;
+    color:rgb(125, 122, 122);
+    padding: 20px 0px;
+    text-align: inter-word;
+}
+.explore-more .cow-see img{
+    border-radius: 15px;
+}
