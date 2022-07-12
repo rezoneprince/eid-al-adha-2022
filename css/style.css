@@ -216,5 +216,15 @@ a{
 /******finish donate-help*****/
 
 /******start footer****/
-
+.finish-section{
+    text-align: center;
+    padding: 60px 15px;
+    color: #fff;
+    background-color: black;
+}
+.finish-section h2{
+    font-size: 35px;
+    margin-bottom: 18px;
+    color:rgba(172, 6, 6, 0.961);
+}
 /******finish footer****/
