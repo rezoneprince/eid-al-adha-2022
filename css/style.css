@@ -72,3 +72,74 @@ a{
     padding: 20px 0;
     text-align: justify;
 }
+.lives-depend{
+   text-align: center;
+}
+.lives-depend hr{
+    width: 50%;
+    margin: auto;
+}
+.lives-depend h1{
+    font-size: 45px;
+}
+.lives-depend p{
+    font-size: 18px;
+    color: rgb(125, 122, 122);
+    padding: 20px 10px;
+}
+.money-card{
+    padding: 100px 250px;
+
+
+}
+.calculation{
+    display: flex;
+    
+}
+.money-card-up,.money-card-down{
+    display: flex;
+}
+.calculation i{
+    font-size: 60px;
+    color:rgba(172, 6, 6, 0.961);
+    color:rgba(172, 6, 6, 0.961);
+    padding: 0 20px;
+}
+.calculation .direct-help h2{
+    font-size: 25px;
+    padding-bottom: 20px;
+
+}
+.calculation .direct-help p{
+    font-size: 18px;
+    color: rgb(125, 122, 122);
+    letter-spacing: 1px;
+}
+.money-card-up #first-help-card{
+    padding: 50px 0px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    background-color:#e8e4dcee;
+}
+.money-card-up #second-help-card{
+    padding: 50px 0px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    background-color:#e0dedc;
+}
+.money-card-down #third-help-card{
+    padding: 50px 0px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    background-color:#ebe9e8;
+}
+.money-card-down #four-help-card{
+    padding: 50px 0px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    background-color:#eaece8;
+}
