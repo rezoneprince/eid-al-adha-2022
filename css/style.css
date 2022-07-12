@@ -6,6 +6,7 @@
 a{
     text-decoration: none;
 }
+/*****start home-start*****/
 .home-start{
     background-image: url(../images/cowbazar1.png);
     background-repeat: no-repeat;
@@ -35,6 +36,9 @@ a{
     border: none;
     border-radius: 15px;
 }
+/*****finish home-start*****/
+
+/*****start explore-more*****/
 .explore-more{
     display: flex;
     padding: 10px 150px;
@@ -55,6 +59,9 @@ a{
 .explore-more .cow-see img,.need-survive img{
     border-radius: 15px;
 }
+/*****finish explore-more*****/
+
+/*****start need-survive*****/
 .need-survive{
     display: flex;
     padding: 120px 150px;
@@ -72,17 +79,20 @@ a{
     padding: 20px 0;
     text-align: justify;
 }
-.lives-depend{
+/*****finish need-survive*****/
+
+/*****start money-card*****/
+.use-to{
    text-align: center;
 }
-.lives-depend hr{
+.use-to hr{
     width: 50%;
     margin: auto;
 }
-.lives-depend h1{
+.use-to h1{
     font-size: 45px;
 }
-.lives-depend p{
+.use-to p{
     font-size: 18px;
     color: rgb(125, 122, 122);
     padding: 20px 10px;
@@ -140,6 +150,9 @@ a{
     border-radius: 10px;
     background-color:#eaece8;
 }
+/*****finish money-card*****/
+
+/*****start gallery*****/
 .gallery{
     padding-bottom: 120px;
 }
@@ -162,5 +175,46 @@ a{
 }
 .gallery .gallery-all img{
     width: 90%;
-
 }
+/*****finish gallery*****/
+
+/******start donate-help*****/
+
+.donate-help .help-card{
+    display: flex;
+    padding: 50px 80px;
+    margin-left: 80px;
+}
+.donate-help .help-card .help-fund img{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px; 
+}
+.help-fund{
+    border: 0.5px solid rgb(179, 179, 179);
+    margin: 10px 20px;
+    border-radius: 10px;
+}
+.donate-help .help-card .help-fund h2{
+    font-size: 25px;
+    padding: 10px 20px;
+}
+.donate-help .help-card .help-fund p{
+    font-size: 18px;
+    color: rgb(125, 122, 122);
+    padding: 5px  20px;
+    margin-bottom: 20px;
+}
+.donate-help .help-card .help-fund button{
+    padding: 10px 20px;
+    margin: 0px 20px;
+    margin-bottom: 30px;
+    color: #fff;
+    background-color: rgba(172, 6, 6, 0.961);
+    border: none;
+    border-radius: 10px;
+}
+/******finish donate-help*****/
+
+/******start footer****/
+
+/******finish footer****/
